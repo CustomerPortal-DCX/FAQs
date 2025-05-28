@@ -1,9 +1,12 @@
 baseURL = "https://yourfaqsite.netlify.app/"
 languageCode = "en-us"
 title = "Company FAQ"
-theme = "doks"
 enableRobotsTXT = true
 
 [params]
   disableSearch = false
   searchPlaceholder = "Search the FAQ..."
+
+[module]
+  [[module.imports]]
+    path = "github.com/slashdotdash/doks"
