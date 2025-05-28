@@ -1,0 +1,9 @@
+baseURL = "https://yourfaqsite.netlify.app/"
+languageCode = "en-us"
+title = "Company FAQ"
+theme = "doks"
+enableRobotsTXT = true
+
+[params]
+  disableSearch = false
+  searchPlaceholder = "Search the FAQ..."
